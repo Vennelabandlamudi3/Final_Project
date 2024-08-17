@@ -38,6 +38,57 @@ Logging Feature:
                Both client and server components will have their own log files.
 
 
+Main Application Files:
+
+main.cpp:    
+
+               Contains the main function and the primary loop to process user commands.
+
+FileExplorer.cpp:
+               
+               Contains the implementation of core file operations.
+
+FileExplorer.h:
+
+                Header file that declares the functions for file operations.
+ 
+ Logger.cpp:    
+           
+                Contains the implementation of the logging functionality.
+
+Logger.h:  
+
+                Header file that declares the logger class and methods.
+
+
+Execution Instructions:
+
+ Setting Up the Environment:
+
+                 Place the corresponding .cpp and .h files in the src/ directory.
+
+                 Create the logs/ directory where the log files will be stored.
+
+ Compiling the Application:
+
+                 Navigate to the FileExplorerApp directory in the terminal.
+
+ Compile the application using g++:
+
+                 g++ src/main.cpp src/FileExplorer.cpp src/Logger.cpp -o FileExplorerApp
+ 
+ Running the Application:
+
+                 ./FileExplorerApp
+
+
+ Log Files:
+
+                  All operations performed will be logged in logs/client_log.txt.
+                
+               
+
+
 
 
 
