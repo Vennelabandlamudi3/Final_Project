@@ -60,7 +60,9 @@ Logger.h:
 
                 Header file that declares the logger class and methods.
 
-
+Makefile: 
+                Automates the build process, managing compilation and linking.
+                
 Execution Instructions:
 
  Setting Up the Environment:
@@ -75,11 +77,13 @@ Execution Instructions:
 
  Compile the application using g++:
 
-                 g++ src/main.cpp src/FileExplorer.cpp src/Logger.cpp -o FileExplorerApp
+                 make
+
  
  Running the Application:
 
-                 ./FileExplorerApp
+                 ./bin/file_explorer
+
 
 
  Log Files:
